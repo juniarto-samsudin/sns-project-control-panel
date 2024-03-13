@@ -1,0 +1,5 @@
+version: '3'
+services:
+  busybox:
+    container_name: my_busybox_container
+    image: busybox
