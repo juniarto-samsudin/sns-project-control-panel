@@ -13,7 +13,7 @@ const onClear = () => {
       .then((response) => response.json())
       .then((data) => console.log(data)); */
     
-    fetch("/api/clearDb")
+    fetch("/3001/api/clearDb")
       .then((response) => response.json())
       .then((data) => console.log(data));
 
@@ -21,7 +21,7 @@ const onClear = () => {
 
 const onSimulate =() =>{
     console.log("Simulating the database");
-    fetch("/api/simulateDb")
+    fetch("/3001/api/simulateDb")
       .then((response) => response.json())
       .then((data) => console.log(data));
 }
